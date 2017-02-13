@@ -1,3 +1,5 @@
+Questions and answers:
+
 How did viewing a diff between two versions of a file help you see the bug that was introduced?
 
     The diff output filters the lines to only those that are different between the two files. This simplifies the task of finding the bug.
