@@ -1,0 +1,29 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+    The diff output filters the lines to only those that are different between the two files. This simplifies the task of finding the bug.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    If you introduced a mistake several versions prior to the current version, doing a diff on the latest version would be useless. Also, if you followed an incorrect approach and wrote a lot of test based on it, it is more efficient to revert to the earlier point just before introducing that unproductive step. 
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    A manual commit is done at logical points, while an automatic commit is done at regular intervals. A manual commit is associated with a comment that indicates what new changes were made while a temporal commit does not provide such information. Hence it is much harder to locate the save point associated with a particular modification of the file.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+    If a project consists of multiple files, a new/changed functionality may be distributed across multiple files. It is more logical to save these changes all at once under one comment, because we can undo these changes all at once if necessary; or, in the case of debugging, review the changes in one integrated step. 
+
+How can you use the commands git log and git diff to view the history of files?
+
+    Git log tells you the history of all commits, pull requests and merges. Git diff shows differences between any two version of a file.
+
+How might using version control make you more confident to make changes that could break something?
+
+    If you make a change that brreaks your program, you can easily go back to the last commit.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Software development.
