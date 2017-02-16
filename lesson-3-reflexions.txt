@@ -17,4 +17,8 @@ What is the benefit of having a copy of the last known state of the remote store
 
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 	
-	You could use Git without GitHub if you are not collaborating with others. Or you could use a private GitHub-like server on your internal network. Without Git, you could achieve eveything by email and perhaps a simple database, but it would be very cumbersome. 
+	You could use Git without GitHub if you are not collaborating with others. Or you could use a private GitHub-like server on your internal network. Without Git, you could achieve eveything by email and perhaps a simple database, but it would be very cumbersome.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+	
+	You make changes to a separate branch when it is not ready to be merged into the master. The disadvantage is that staying synchronized with the changes with the other changes going on in the master is more complicated.
